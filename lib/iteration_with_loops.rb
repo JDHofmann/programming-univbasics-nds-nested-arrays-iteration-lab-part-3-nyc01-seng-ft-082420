@@ -8,9 +8,9 @@ while outer_index < src.length do
   while inner_index < src[outer_index].length do 
     
     if src[outer_index][inner_index].is_a?(String) do 
+      
       new_string_array << src[outer_index][inner_index]
     end 
-    
     inner_index += 1 
   end
     outer_index += 1 
