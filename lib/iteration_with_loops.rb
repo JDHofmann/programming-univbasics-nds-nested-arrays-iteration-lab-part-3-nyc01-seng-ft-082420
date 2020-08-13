@@ -16,5 +16,6 @@ while outer_index < src.length do
   end
     outer_index += 1 
 end    
-new_string_array.join
+joined_string = new_string_array.join(" ")
+joined_string
 end
